@@ -4,7 +4,7 @@
 	{
 		public ExpectationResult Handle(string message)
 		{
-			return ExpectationResult.CreateFailureResult(message);
+				return ExpectationResult.CreateFailureResult(message);
 		}
 	}
 }
